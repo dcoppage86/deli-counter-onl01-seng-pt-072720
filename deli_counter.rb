@@ -14,9 +14,7 @@ def line(katz_deli)
   end
 end
 
-katz_deli = ["Ada", "Grace", "Kent"]
-
 def take_a_number(katz_deli, name)
-  katz_deli << "#{name}"
+  katz_deli.push name
   puts "Welcome #{name}. You are #{katz_deli.length} in line"
 end
