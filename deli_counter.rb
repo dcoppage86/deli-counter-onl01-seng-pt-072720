@@ -10,7 +10,7 @@ def line(katz_deli)
     line_array.push("#{name}")
     place += 1
   end
-    puts "The line is currently: #{line_array.join("")}"
+    puts "The line is currently: #{line_array.join("#{name}")}"
   end
 end
 
