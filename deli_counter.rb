@@ -2,7 +2,7 @@ katz_deli = ["Ada", "Grace", "Kent"]
 
 def line(katz_deli)
   place = 1
-  line_array = []
+  line_array = ["Ada", "Grace", "Kent"]
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
