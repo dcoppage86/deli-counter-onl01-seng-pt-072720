@@ -1,4 +1,4 @@
-katz_deli = ["Ada", "Grace", "Kent"]
+katz_deli = ["1. Ada", "2.Grace", "3.Kent"]
 
 def line(katz_deli)
   place = 1
