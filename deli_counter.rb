@@ -13,4 +13,9 @@ def line(katz_deli)
     puts "The line is currently: #{line_array.join("")}"
   end
 end
- 
+
+def take_a_number(katz_deli, name)
+  if katz_deli.push.empty?
+    puts "Welcome, #{name}. You are number #{number} in line."
+  end
+end
